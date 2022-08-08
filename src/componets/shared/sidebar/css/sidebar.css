@@ -1,0 +1,34 @@
+.item-dashboard {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #a5b2ed;
+}
+
+.item-insues {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
+}
+
+.logout ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.icon-sidebar{
+    padding-top: 20px;
+}
+
+.item-config{
+    padding-top: 50px;
+}
+
+.item-insues{
+    padding-top: 30px;
+}

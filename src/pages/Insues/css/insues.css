@@ -1,0 +1,25 @@
+.acordion-insues .accordion-header {
+  text-align: right;
+}
+
+.acordion-insues .accordion-button {
+  background: none;
+  border: none;
+}
+
+.table-insues .table th {
+  font-family: "PT Sans Caption";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  color: #c1c4d1;
+}
+
+.table-insues .table td {
+  font-family: "PT Sans Caption";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #293253;
+}

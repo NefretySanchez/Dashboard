@@ -1,0 +1,111 @@
+.card-inactive {
+  box-shadow: 2px 2px 12px 2px rgba(0, 63, 128, 0.08),
+    2px 4px 8px 2px rgba(0, 63, 128, 0.04) !important;
+  border-radius: 15px !important;
+}
+.card-active {
+  border: 2px solid #f97b92 !important;
+  box-shadow: 2px 2px 12px 2px rgba(0, 63, 128, 0.08),
+    2px 4px 8px 2px rgba(0, 63, 128, 0.04) !important;
+  border-radius: 15px !important;
+}
+
+.title-operation {
+  font-family: "PT Sans Caption";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #f97b92;
+}
+
+.subtitle-operation {
+  font-family: "PT Sans Caption";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #808191;
+}
+
+.number-operation {
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  display: flex;
+  align-items: center;
+  color: #86878b;
+}
+
+.title-actuaril {
+  color: #ac6ced;
+}
+
+.title-finance {
+  color: #8ce07e;
+}
+
+.title-salud {
+  color: #7891e9;
+}
+
+.title-rules {
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #443956;
+}
+
+.subtitle-chart-pie {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #a0a1a8;
+}
+
+.card-rules ul {
+  list-style: none;
+}
+
+.card-rules ul li {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #a0a1a8;
+  padding-left: 5px;
+}
+
+.card-rules ul li::before {
+  content: "\2022";
+  color: #f97b92;
+  font-size: 22px;
+  font-weight: bold;
+  display: inline-block;
+  width: 20px;
+  height: 30px;
+  margin-left: -1em;
+}
+
+.card-rules ul li.actuarial::before {
+  color: #c69af2;
+}
+
+.card-rules ul li.finance::before {
+  color: #8ce07e;
+}
+
+.card-rules ul li.salud::before {
+  color: #889eec;
+}
+
+.card-rules ul li.active {
+  background: #fdd0d0;
+  border-radius: 20px;
+  color: #ffffff;
+  width: fit-content;
+  padding: 0px 5px 0px 5px;
+}
